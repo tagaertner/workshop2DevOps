@@ -14,7 +14,7 @@ services:
       - DB_USER=postgres
       - DB_PASSWORD=admin123
       - DB_HOST=nctutorials.cs4ysor2mgim.us-east-1.rds.amazonaws.com
-      - DB_PORT=5432
+      - DB_PORT=5432ssh -i nucamp-private-key.pem ubuntu@44.218.141.218
       - DATABASE=postgres
       - VIRTUAL_HOST=ec2-44-218-141-218.compute-1.amazonaws.com
       - VIRTUAL_PORT=8000
